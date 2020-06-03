@@ -24,7 +24,7 @@ var _ = math.Inf
 // proto package needs to be updated.
 const _ = proto.ProtoPackageIsVersion2 // please upgrade the proto package
 
-// Outputspecifies the output format.
+// Output specifies the output format.
 type ProfileRequest_Output int32
 
 const (

@@ -587,6 +587,7 @@ func (r *AgentSuite) newAgent(config testAgentConfig) (*agent, error) {
 		Checkers:                config.checkers,
 		localStatus:             config.localStatus,
 		lastSeen:                lastSeen,
+		connectionStatuses:      make(map[string]string),
 		statusQueryReplyTimeout: statusQueryReplyTimeout,
 	}
 
